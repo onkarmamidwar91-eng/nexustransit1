@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.glass-card {
+  @apply bg-panel/60 backdrop-blur border border-border rounded-xl;
+}
+
+.leaflet-container {
+  background: #0b1120;
+}
