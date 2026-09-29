@@ -10,7 +10,7 @@ python-dotenv==1.0.1
 
 # --- Database (SQLite by default; Postgres+PostGIS optional) ---
 sqlalchemy==2.0.34
-# psycopg2-binary==2.9.9   # uncomment if using PostgreSQL instead of SQLite
+psycopg2-binary==2.9.9   # uncomment if using PostgreSQL instead of SQLite
 
 # --- Auth ---
 python-jose[cryptography]==3.3.0
